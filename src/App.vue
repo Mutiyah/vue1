@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Api />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Api from './components/Api';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Api
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  }
+  /* body{
+    margin: 10px;
+    } */
 </style>
